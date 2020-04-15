@@ -1,14 +1,12 @@
 **lib-deamon-cpp**
 
 **Version:** 1.0.1
+
 **Release Date:** 2020-04-15
 
-**Summary**
-
 Library to make daemons in c++ projects.
-**Getting Started**
 
-***Build***
+**Build**
 ```
 git clone https://github.com/PawelJanik/lib-deamon-cpp.git
 cd lib-daemon-cpp
@@ -18,7 +16,7 @@ cmake ..
 make
 ```
 
-***Install***
+**Install**
 ```
 make install (as root user)
 ldconfig (as root user)
