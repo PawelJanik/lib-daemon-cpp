@@ -135,7 +135,6 @@ void DaemonCpp::exec()
 	while (running == 1) 
 	{
 		(*loop)();
-		sleep(1);		//---------------------------------------
 		
 		if(signalStatus == SIGTERM)
 		{
