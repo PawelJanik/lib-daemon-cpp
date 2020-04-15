@@ -1,6 +1,6 @@
 #include <daemoncpp.h>
-#include <thread>         // std::this_thread::sleep_for
-#include <chrono>         // std::chrono::seconds
+#include <thread>
+#include <chrono>
 #include <fstream>
 #include <string>
 
@@ -35,6 +35,9 @@ int main(int argc, char **argv)
 	daemon->setLoopFunction(loop);
 	
 	daemon->exec();
+	
+	
+	delete daemon;
 	
 	return 0;
 }
