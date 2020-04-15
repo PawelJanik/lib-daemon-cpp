@@ -1,3 +1,9 @@
+#build data
+build/*
+
+#project user data
+.kdev4/*
+
 # Prerequisites
 *.d
 
