@@ -21,3 +21,34 @@ make
 make install (as root user)
 ldconfig (as root user)
 ```
+
+**Example**
+
+CPUtempLogger - simple example of a daemon that logging processor temperature
+
+**Build example**
+```
+cd to example/CPUtempLogger
+mkdir build
+cd build
+cmake ..
+make
+```
+
+**Install example**
+
+```
+make install (as root user)
+```
+
+**Run example daemon**
+
+```
+systemctl daemon-reload
+systemctl start cputemplogger
+```
+To see logging data
+
+```
+cat /var/log/cputemplogger.log
+```
