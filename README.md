@@ -8,7 +8,7 @@ Library to make daemons in c++ projects.
 
 **Build**
 ```
-git clone https://github.com/PawelJanik/lib-deamon-cpp.git
+git clone https://github.com/PawelJanik/lib-daemon-cpp.git
 cd lib-daemon-cpp
 mkdir build
 cd build
